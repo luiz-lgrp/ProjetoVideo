@@ -4,7 +4,7 @@
 <P>Botões no formato svg para facilitar a manipulação usei também o estilo glassmorphism!</P>
 <P>100% responsivo!</P>
 <br>
-<P>Link do site: </P>
+<P>Link do site: https://luiz-lgrp.github.io/ProjetoVideo/ </P>
 
 <img src="https://github.com/luiz-lgrp/ProjetoVideo/blob/master/video/ProjetoVideo.gif" width="800" height="400" />
 
