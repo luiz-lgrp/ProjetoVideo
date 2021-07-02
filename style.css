@@ -179,6 +179,14 @@ body
 
 @media screen and (max-width:440px)
 {
+
+  body {
+    background-image: url(imagens/homemfeliz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   .container 
   {
     width: 370px;
@@ -203,6 +211,14 @@ body
 
 @media screen and (max-width:370px)
 {
+
+  body {
+    background-image: url(imagens/homemfeliz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
   .container 
   {
     width: 345px;
