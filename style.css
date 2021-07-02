@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-body {
+body
+ {
   background-image: url(imagens/homemfeliz.jpg);
   background-repeat: no-repeat;
   background-size: cover;
