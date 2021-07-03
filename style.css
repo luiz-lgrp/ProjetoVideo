@@ -72,6 +72,14 @@ body
   margin: 0;
   padding: 0;
   text-align: right;
+  text-decoration:none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#p2
+{
+  text-decoration:none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #form_creditos {
@@ -177,11 +185,22 @@ body
   }
 }
 
+@media screen and (max-width:617px)
+{
+
+  body {
+    background-image: url(imagens/amarelo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+}
 @media screen and (max-width:440px)
 {
 
   body {
-    background-image: url(imagens/homemfeliz.jpg);
+    background-image: url(imagens/amarelo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -213,7 +232,7 @@ body
 {
 
   body {
-    background-image: url(imagens/homemfeliz.jpg);
+    background-image: url(imagens/amarelo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
