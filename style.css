@@ -31,6 +31,7 @@ body
   top: 0px;
   text-align: center;
   opacity: 0;
+  transition: all 0.7s;
 }
 
 .controle:hover{
@@ -90,6 +91,37 @@ body
   font-size: 20px;
 }
 
+@media screen and (min-width:2550px)
+{
+  body {
+    background-image: url(imagens/homemfeliz2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container
+   {
+    width: 840px;
+    height: 360px;
+    position: relative;
+    transform: translate(60%, 70%);
+  }  
+
+  .btn 
+  {
+    width: 50px;
+    padding: 15px;
+    margin-left: 10px;
+    transform: translateY(0%);
+  }
+
+  .btn:hover
+   {
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+  }
+}
 
 @media screen and (max-width:1200px)
 {
